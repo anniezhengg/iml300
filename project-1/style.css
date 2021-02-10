@@ -1,0 +1,281 @@
+/* position */
+body {
+    text-align: center;
+    display: grid;
+    height: 100vh;
+    font-family: "Lucida Console", monospace;
+    font-size: 18px;
+}
+
+.intro {
+    margin:165px;
+}
+
+.center {
+    margin:auto;
+   
+}
+.center-2 {
+    margin: inherit;
+}
+
+.left {
+    text-align: left;
+    margin-left:60px;
+}
+
+.right {
+    text-align: right;
+    margin-right: 60px;
+}
+
+.top {
+    margin-top: 30px;
+    position:relative;
+}
+
+.bottom {
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 50px;
+
+}
+
+.right-2 {
+    text-align: right;
+    position:absolute;
+    margin-right: 60px;
+    margin-top:300px;
+    margin-left:950px;
+}
+
+.left-2 {
+    text-align: left;
+    position: absolute;
+    margin-left: 60px;
+    margin-top:30px;
+    margin-right: 950px;
+}
+
+.bottom-2 {
+    position: relative;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top:2500px;
+    margin-bottom: 50px;
+}
+
+.bottom-3 {
+    bottom:0;
+    margin-top: 300px;
+}
+
+.scroll {
+    margin-top: 600px;
+}
+
+.split {
+    text-align: right;
+    margin-right:6px;
+    margin-left: 50px
+}
+
+.bottom-quarter {
+    margin-top:450px;
+}
+
+.final-arc-1h {
+    margin-top:610px;
+    margin-left:810px;
+}
+.so-this-is {
+    margin-right:70px;
+    position:fixed;
+}
+
+.the-other-side {
+    position:fixed;
+    margin-left:70px;
+}
+/* text */
+
+.white-text {
+   color: white;
+}
+
+.black-text {
+    color: black;
+}
+
+.pink-text {
+    color:#ec706b;
+}
+
+.large-text {
+    font-size: 30px;
+}
+
+mark {
+    background-color: #e19da4;
+}
+/* hover */
+.mouse {
+    color:#dc4141;
+}
+
+.mouse:hover {
+    color:#967eeb;
+}
+
+.mouse-2 {
+    color:#5eaee8;
+}
+
+.mouse-2:hover {
+    color:#967eeb;
+}
+
+.mouse-3 {
+    color:#15da88;
+}
+
+.mouse-3:hover {
+    color:#967eeb;
+}
+.b {
+    opacity: 0;
+}
+.hover-area:hover .b {
+    opacity: 1;
+}
+
+.c {
+    opacity: 0;
+}
+
+.hover-area:hover .c {
+    opacity: 1;
+}
+
+/* more details */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    outline: none;
+}
+
+/* rotate */
+.rotate1 {
+    transform: rotate(-25deg);
+}
+
+.rotate2 {
+    transform: rotate(40deg);
+}
+
+.rotate3 {
+    transform: rotate(-5deg);
+     margin-right: 900px;
+}
+
+.rotate4 {
+    transform: rotate(7deg);
+    margin-right:500px;
+}
+.rotate5 {
+    transform: rotate(-45deg);
+    margin-right:50px;
+}
+
+.rotate6 {
+    transform: rotate(18deg);
+    margin-left:200px;
+}
+
+.rotate7 {
+    transform: rotate(-80deg);
+        margin-left: 500px
+}
+
+.rotate8 {
+    transform: rotate(27deg);
+    margin-left:900px
+}
+
+.rotate9 {
+    transform: rotate(-15deg)
+}
+/* background */
+.pink {
+    background-color: #f2aba8;
+    color: white;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.bg-2 {
+    background-image: url("/media/flower-girl-intro.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-3 {
+    background-image: url("/media/mirror-field-of-flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.bg-4 {
+    background-image: url("/media/lonely-field.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-5 {
+    background-image: url("/media/reaching.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-6 {
+    background-image: url("/media/the-other-side.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-7 {
+    background-image: url("/media/split-screen-final.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-8 {
+    background-image: url(/media/flower-girl-ending.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
