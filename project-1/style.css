@@ -214,14 +214,14 @@ summary {
 }
 
 .bg-2 {
-    background-image: url("/media/flower-girl-intro.jpg");
+    background-image: url("media/flower-girl-intro.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bg-3 {
-    background-image: url("/media/mirror-field-of-flowers.jpg");
+    background-image: url("media/mirror-field-of-flowers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,35 +229,35 @@ summary {
 }
 
 .bg-4 {
-    background-image: url("/media/lonely-field.jpg");
+    background-image: url("media/lonely-field.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bg-5 {
-    background-image: url("/media/reaching.jpg");
+    background-image: url("media/reaching.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bg-6 {
-    background-image: url("/media/the-other-side.jpg");
+    background-image: url("media/the-other-side.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bg-7 {
-    background-image: url("/media/split-screen-final.jpg");
+    background-image: url("media/split-screen-final.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bg-8 {
-    background-image: url(/media/flower-girl-ending.jpg);
+    background-image: url("media/flower-girl-ending.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
