@@ -198,16 +198,16 @@ summary {
 
 .rotate7 {
     transform: rotate(-80deg);
-        margin-left: 500px
+        margin-left: 500px;
 }
 
 .rotate8 {
     transform: rotate(27deg);
-    margin-left:900px
+    margin-left:900px;
 }
 
 .rotate9 {
-    transform: rotate(-15deg)
+    transform: rotate(-15deg);
 }
 /* background */
 .pink {
