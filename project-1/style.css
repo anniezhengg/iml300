@@ -8,7 +8,11 @@ body {
 }
 
 .intro {
-    margin: 165px;
+    margin: 200px;
+}
+
+.ending {
+    margin: 185px;
 }
 
 .center {
