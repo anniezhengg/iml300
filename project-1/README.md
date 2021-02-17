@@ -1,5 +1,5 @@
 # flower girl
-![demo](https://github.com/anniezhengg/iml300/blob/master/project-1/media/flower-girl-demo.gif)
+![demo](https://github.com/anniezhengg/iml300/blob/master/project-1/media/flower%20girl%20demo.gif)
 
 [flower girl](http://anniezhengg.github.io/iml300/project-1/index.html) is an interactive web experience of self-discovery, self-doubt, and healing.
 
