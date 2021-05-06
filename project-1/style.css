@@ -162,8 +162,8 @@ mark {
 }
 
 /* more details */
-summary::-webkit-details-marker {
-    display: none;
+summary {
+  display: block;
 }
 
 summary {
